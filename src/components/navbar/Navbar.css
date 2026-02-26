@@ -1,0 +1,64 @@
+nav {
+    top: 0;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    padding: .5rem;
+    width: 100vw;
+    margin: 0 auto;
+
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+}
+
+nav .list-right {
+    position: relative;
+    left: 5rem;
+}
+
+nav .list-left {
+
+    position: relative;
+}
+
+nav .list-left a {
+    margin-left: 2rem
+}
+
+nav div a {
+    color: #1e1e1e90;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+nav img {
+    width: 40px;
+    margin: auto;
+    position: relative;
+}
+
+.cad-btn {
+    color: #111;
+    background-color: #f9cb15;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: .8rem;
+
+}
+
+.cad-btn:hover {
+    box-shadow: 0px 5px 10px 0px rgba(249, 203, 21, .5);
+    color: black;
+}
+
+.cad-login {
+    color: #111;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: .8rem;
+}
+
+.cad-login:hover {
+    background-color: #f9cb15;
+
+    color: black;
+}
